@@ -31,9 +31,9 @@ function setup() {
     World.add(world,ground)
 
 	paper = new Paper(200,350,40,30);
-	largeBox1 = new LargeBox(350,655,20,70)
-	largeBox2 = new LargeBox(450,655,20,70)
-	largeBox3 = new LargeBox(400,680,115,20)
+	largeBox1 = new LargeBox(600,655,20,70)
+	largeBox2 = new LargeBox(700,655,20,70)
+	largeBox3 = new LargeBox(650,680,115,20)
 
 	Engine.run(engine);
   
